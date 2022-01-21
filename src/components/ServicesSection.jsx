@@ -4,7 +4,7 @@ import diaph from "../assets/img/diaphragm.svg";
 import money from "../assets/img/money.svg";
 import teamwork from "../assets/img/teamwork.svg";
 import home2 from "../assets/img/home2.png";
-import { About,Hide,Description,Image } from '../styles';
+import { About,Description,Image } from '../styles';
 import styled from 'styled-components';
 const ServicesSection = () => {
   return (
