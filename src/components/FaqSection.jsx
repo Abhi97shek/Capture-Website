@@ -1,5 +1,5 @@
 import React from 'react';
-import {About,Description} from "../styles";
+import {About} from "../styles";
 import styled from "styled-components";
 const FaqSection = () => {
   return (
