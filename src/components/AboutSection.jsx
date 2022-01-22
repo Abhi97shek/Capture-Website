@@ -3,6 +3,8 @@ import home1 from "../assets/img/home1.png";
 import { motion } from 'framer-motion';
 import {About,Description,Hide,Image } from "../styles";
 import { titleAnim,fade,imgAnim } from '../pages/animation';
+import Wave from './Wave';
+import styled from 'styled-components';
 const AboutSection = () => {
 
     // const titleAnim = {
@@ -38,11 +40,13 @@ const AboutSection = () => {
             <Image>
                 <motion.img variants={imgAnim} src={home1} alt="home_image" />
             </Image>
+            <Wave />
       </About>
   )
 };
 
 // Styled Components
+
 
 
 
