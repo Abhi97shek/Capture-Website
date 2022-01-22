@@ -1,7 +1,6 @@
 import './App.css';
 import GlobalStyle from './components/GlobalStyle';
 import AboutUs from './pages/AboutUs';
-import styled from "styled-components";
 import NavBar from './components/NavBar';
 import { useLocation } from 'react-router-dom';
 import OurWork from './pages/OurWork';

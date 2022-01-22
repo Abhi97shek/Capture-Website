@@ -7,7 +7,6 @@ import { motion } from 'framer-motion';
 import { pageAnimation } from './animation';
 const MovieDetail = () => {
     const {pathname} = useLocation();
-    
     const url = pathname;
     console.log(pathname);
     const [movies,setMovies] = useState(MovieState);

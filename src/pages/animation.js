@@ -63,5 +63,31 @@ export const imgAnim = {
             ease:'easeOut'
         }
     }
+};
+
+export const lineAnim = {
+    hidden:{
+        width:'0%',
+
+    },
+    show:{
+        width: '100%',
+        transition:{
+            duration:1
+        }
+    }
+};
+
+export const slider={
+    hidden:{
+        x:'-130%',
+        skew:'45deg'
+    },
+    show:{
+        x:'100%',
+        skew:'0deg',
+        transition: {
+            ease:'easeOut',
+            duration:0.75}
+    }
 }
-  
