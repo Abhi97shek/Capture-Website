@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import Award from '../components/Award';
 import { MovieState } from '../movieState';
+import { motion } from 'framer-motion';
+import { pageAnimation } from './animation';
 const MovieDetail = () => {
     const {pathname} = useLocation();
     
@@ -23,7 +25,7 @@ const MovieDetail = () => {
   return (
       <>
       {movie && (
-                <Details>
+                <Details variants={pageAnimation} initial="hidden" animate="show" exit="exit" >
                 <Headline>
                     <h2>{movie.title}</h2>
                     <img src={movie.mainImg} alt="movie" />
@@ -43,7 +45,7 @@ const MovieDetail = () => {
   );
 };
 
-const Details = styled.div`
+const Details = styled(motion.div)`
         color: white;
        
 
